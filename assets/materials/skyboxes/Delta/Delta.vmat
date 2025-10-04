@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/sky.shader"
+
+	//---- Texture ----
+	SkyTexture "materials/skyboxes/Delta/MorningSkyHDRI008A_4K-HDR.exr"
+}

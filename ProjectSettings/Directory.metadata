@@ -1,0 +1,23 @@
+[
+  {
+    "Key": "assets\\attachments",
+    "Value": {
+      "Color": "0.90196,0.85882,0.4549,1",
+      "Icon": "add_circle_outline"
+    }
+  },
+  {
+    "Key": "assets\\particles",
+    "Value": {
+      "Color": "0.90196,0.85882,0.4549,1",
+      "Icon": "local_fire_department"
+    }
+  },
+  {
+    "Key": "assets\\weapons",
+    "Value": {
+      "Color": "0.90196,0.85882,0.4549,1",
+      "Icon": "gps_not_fixed"
+    }
+  }
+]
