@@ -165,12 +165,6 @@ public class ViewModelHandler : Component
 		if ( !player.IsOnGround )
 			return;
 
-		// Check if sprinting
-		if ( player.IsRunning )
-		{
-			breatheTime = RealTime.Now * 18.0f;
-			maxWalkSpeed = 100.0f;
-		}
 
 		// Check for sideways velocity to sway the gun slightly
 		if ( isAiming || localVel.x > 0.0f )

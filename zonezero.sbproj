@@ -23,10 +23,15 @@
     "PerMapRanking": false,
     "LeaderboardType": "None",
     "CsProjName": "",
-    "StartupScene": "scenes/minimal.scene",
+    "StartupScene": "scenes/delta.scene",
     "ProjectTemplate": null,
     "LaunchMode": "QuickPlay",
-    "MapStartupScene": "scenes/minimal.scene",
-    "DedicatedServerStartupScene": "scenes/minimal.scene"
+    "MapStartupScene": "scenes/delta.scene",
+    "DedicatedServerStartupScene": "scenes/delta.scene",
+    "ControlModes": {
+      "Keyboard": false,
+      "VR": false,
+      "Gamepad": false
+    }
   }
 }

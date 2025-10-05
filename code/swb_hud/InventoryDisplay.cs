@@ -65,7 +65,6 @@ public class InventoryDisplay : Panel
 			if ( itemPanels.ContainsKey( item.Slot ) ) return;
 
 			var itemP = Add.Panel( "item" );
-			itemP.Add.Label( item.DisplayName, "name" );
 			itemP.Add.Label( item.Slot.ToString(), "slot" );
 			itemP.Add.Image( item.Icon, "icon" );
 

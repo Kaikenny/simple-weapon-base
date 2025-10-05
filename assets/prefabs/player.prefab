@@ -3,7 +3,7 @@
     "__guid": "bf0f959a-8e13-4133-8fc5-edc7aa3d1b0c",
     "__version": 1,
     "Flags": 0,
-    "Name": "player",
+    "Name": "Player (just for editing)",
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
     "Scale": "1,1,1",
@@ -112,7 +112,7 @@
           "go": "ef4f1054-23fd-408d-b0fb-fede1d825da6",
           "component_type": "RootDisplay"
         },
-        "RunSpeed": 290,
+        "RunSpeed": 200,
         "ViewModelCamera": {
           "_type": "component",
           "component_id": "ea5e3826-bd2e-4f0c-a7c5-e1f93e741ca5",
@@ -125,7 +125,7 @@
           "go": "d8a09f79-a5a4-41e7-9522-ff9d3a8df4e8",
           "component_type": "Voice"
         },
-        "WalkSpeed": 160
+        "WalkSpeed": 150
       }
     ],
     "Children": [
@@ -2241,6 +2241,7 @@
             "__enabled": false,
             "BackgroundColor": "0.33333,0.46275,0.52157,1",
             "ClearFlags": "Depth, Stencil",
+            "EnablePostProcessing": true,
             "FieldOfView": 90,
             "FovAxis": "Horizontal",
             "IsMainCamera": true,
@@ -2252,6 +2253,7 @@
             "OnComponentUpdate": null,
             "Orthographic": false,
             "OrthographicHeight": 1204,
+            "PostProcessAnchor": null,
             "Priority": 2,
             "RenderExcludeTags": "",
             "RenderTags": "viewmodel,light",
@@ -2259,152 +2261,6 @@
             "Viewport": "0,0,1,1",
             "ZFar": 10000,
             "ZNear": 1
-          },
-          {
-            "__type": "Sandbox.Tonemapping",
-            "__guid": "10b732d9-3400-4feb-9f78-7dd88e2fe4f8",
-            "__enabled": true,
-            "__version": 3,
-            "AutoExposureEnabled": true,
-            "ExposureCompensation": 0,
-            "ExposureMethod": "RGB",
-            "MaximumExposure": 3,
-            "MinimumExposure": 1,
-            "Mode": "ACES",
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null,
-            "Rate": 1
-          },
-          {
-            "__type": "Sandbox.ColorAdjustments",
-            "__guid": "43743e8c-ec01-44d5-8a53-08fea22109d9",
-            "__enabled": true,
-            "Brightness": 1,
-            "Contrast": 1,
-            "HueRotate": 0,
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null,
-            "Saturation": 1.0620689
-          },
-          {
-            "__type": "Sandbox.ColorGrading",
-            "__guid": "a751857e-62a0-4d7b-8186-f9f6a85ed130",
-            "__enabled": true,
-            "BlendFactor": 1,
-            "BlueCurve": [
-              {
-                "x": 0,
-                "y": 0.5,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 1,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ],
-            "ColorSpace": "None",
-            "ColorTempK": 13022.556,
-            "GradingMethod": "TemperatureControl",
-            "GreenCurve": [
-              {
-                "x": 0,
-                "y": 0.5,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 1,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ],
-            "HueCurve": [
-              {
-                "x": 0,
-                "y": 0.5,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 1,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ],
-            "LookupTexture": null,
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null,
-            "RedCurve": [
-              {
-                "x": 0,
-                "y": 0.5,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 1,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ],
-            "SaturationCurve": [
-              {
-                "x": 0,
-                "y": 0.5,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 1,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ],
-            "ValueCurve": [
-              {
-                "x": 0,
-                "y": 0.5,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 1,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ]
           }
         ],
         "Children": []
@@ -2430,6 +2286,7 @@
             "__enabled": true,
             "BackgroundColor": "0.33333,0.46275,0.52157,1",
             "ClearFlags": "All",
+            "EnablePostProcessing": true,
             "FieldOfView": 90,
             "FovAxis": "Horizontal",
             "IsMainCamera": true,
@@ -2441,6 +2298,7 @@
             "OnComponentUpdate": null,
             "Orthographic": false,
             "OrthographicHeight": 1204,
+            "PostProcessAnchor": null,
             "Priority": 1,
             "RenderExcludeTags": "viewmodel",
             "RenderTags": "",

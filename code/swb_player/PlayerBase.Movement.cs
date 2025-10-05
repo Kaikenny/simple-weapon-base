@@ -18,6 +18,7 @@ public partial class PlayerBase
 	[Sync] public Vector3 EyeOffset { get; set; } = Vector3.Zero;
 	[Sync] public bool IsCrouching { get; set; } = false;
 	[Sync] public bool IsRunning { get; set; } = false;
+	[Sync] public bool IsWalking { get; set; } = false;
 	[Sync] public bool CanMove { get; set; } = true;
 
 	public bool IsOnGround => CharacterController?.IsOnGround ?? true;
@@ -50,7 +51,7 @@ public partial class PlayerBase
 	{
 		if ( !IsProxy )
 		{
-			IsRunning = Input.Down( InputButtonHelper.Run );
+			IsWalking = Input.Down( InputButtonHelper.Walk );
 
 			if ( Input.Pressed( InputButtonHelper.Jump ) )
 				Jump();
@@ -84,8 +85,8 @@ public partial class PlayerBase
 		if ( !WishVelocity.IsNearZeroLength ) WishVelocity = WishVelocity.Normal;
 
 		if ( IsCrouching ) WishVelocity *= CrouchSpeed;
-		else if ( IsRunning ) WishVelocity *= RunSpeed;
-		else WishVelocity *= WalkSpeed;
+		else if ( IsWalking ) WishVelocity *= WalkSpeed;
+		else WishVelocity *= RunSpeed;
 	}
 
 	void Move()

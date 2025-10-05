@@ -2,27 +2,16 @@
     position: absolute;
     align-items: center;
     bottom: 40px;
-    right: 60px;
+    right: 500px;
     height: 110px;
-    color: white;
-    font-family: Poppins;
+    color: yellow;
+    font-family: GoBold;
     padding: 32px 16px 16px 16px;
-    background-color: rgba( #2222, 0.5 );
-    backdrop-filter: blur( 16px );
     border-radius: 4px;
 
-    .name {
-        position: absolute;
-        top: 4px;
-        left: 8px;
-        text-align: left;
-        font-size: 14px;
-        font-family: FONTSPRING DEMO - Integral CF;
-        text-transform: uppercase;
-    }
 
     .clip {
-        font-size: 55px;
+        font-size: 50px;
         font-weight: bold;
         text-align: center;
         font-size: 60px;

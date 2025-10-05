@@ -15,8 +15,8 @@ public class HealthDisplay : Panel
 		this.player = player;
 		StyleSheet.Load( "/swb_hud/HealthDisplay.cs.scss" );
 
-		Add.Label( "health", "name" );
-		healthLabel = Add.Label( "", "health" );
+
+		healthLabel = Add.Label( "" );
 	}
 
 	public override void Tick()
@@ -31,7 +31,6 @@ public class HealthDisplay : Panel
 		if ( healthLabel is not null )
 		{
 			healthLabel.Text = player.Health.ToString();
-			healthLabel.Style.FontColor = new Color( 1, 1 * healthPer, 1 * healthPer );
 		}
 	}
 }

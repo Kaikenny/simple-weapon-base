@@ -178,26 +178,7 @@
       "__Prefab": "prefabs/player.prefab",
       "__PrefabInstancePatch": {
         "AddedObjects": [],
-        "RemovedObjects": [
-          {
-            "Id": {
-              "Type": "Component",
-              "IdValue": "10b732d9-3400-4feb-9f78-7dd88e2fe4f8"
-            }
-          },
-          {
-            "Id": {
-              "Type": "Component",
-              "IdValue": "43743e8c-ec01-44d5-8a53-08fea22109d9"
-            }
-          },
-          {
-            "Id": {
-              "Type": "Component",
-              "IdValue": "a751857e-62a0-4d7b-8186-f9f6a85ed130"
-            }
-          }
-        ],
+        "RemovedObjects": [],
         "PropertyOverrides": [
           {
             "Target": {
@@ -337,10 +318,7 @@
         "cf3e1cb6-5642-45e4-aa84-9ab9dd4bad9c": "52001d63-6a3f-464e-92c5-761a386cb731",
         "1bcacf75-5322-44f5-9200-c56e26e50aee": "cde39656-8467-4075-acea-e3cd08540f09",
         "420bc296-7868-4a9b-9062-bc9f29e1e96f": "44b7abe7-7912-4a6a-8e20-7e8dc1852790",
-        "720e44a4-6dc9-415d-a7af-5ffb13aa2d64": "c156203b-9a1f-471a-b5b1-d545d2c181af",
-        "10b732d9-3400-4feb-9f78-7dd88e2fe4f8": "b90c80b0-78c1-460d-bd98-4a2bbb268839",
-        "43743e8c-ec01-44d5-8a53-08fea22109d9": "14a23d6c-c5f9-417b-8371-3914c8b4b1cf",
-        "a751857e-62a0-4d7b-8186-f9f6a85ed130": "81a596ca-d072-442f-ba5b-1b6ebf7e6c27"
+        "720e44a4-6dc9-415d-a7af-5ffb13aa2d64": "c156203b-9a1f-471a-b5b1-d545d2c181af"
       }
     },
     {
@@ -1145,7 +1123,7 @@
       ],
       "Children": [
         {
-          "__guid": "69205f83-cc20-498b-8bef-126ab5296a89",
+          "__guid": "6a335147-8798-46c5-82f4-4c7d84e32184",
           "__version": 1,
           "Flags": 0,
           "Name": "Clothing - trousers.smart",
@@ -1161,7 +1139,7 @@
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "ee12f7a3-4d40-483e-8ce9-309fb86da9ca",
+              "__guid": "1c7bac1f-606e-45fc-9460-85fe50b64f6b",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,
@@ -1212,7 +1190,7 @@
           "Children": []
         },
         {
-          "__guid": "db97ab36-7573-4647-8f41-5f681c12ab5d",
+          "__guid": "c98293ae-a8c8-466d-83a0-9fa975260d30",
           "__version": 1,
           "Flags": 0,
           "Name": "Clothing - sneakers",
@@ -1228,7 +1206,7 @@
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "92d52307-e68f-4d8d-998a-90919a45ea00",
+              "__guid": "4a7a8544-263a-40b5-a026-337d77ea426a",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,
@@ -1279,7 +1257,7 @@
           "Children": []
         },
         {
-          "__guid": "9f8b29c3-0a7b-4e0d-888f-d3bf5f07dfa9",
+          "__guid": "38a33f6e-bb8e-4a98-ae20-1f2dc19fa5b1",
           "__version": 1,
           "Flags": 0,
           "Name": "Clothing - hair_shortscruffy_brown",
@@ -1295,7 +1273,7 @@
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "141b86bc-614b-4a5c-a859-8556685fa20a",
+              "__guid": "1fd7e646-a993-4c42-9f90-a477a04f2848",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,
@@ -1346,7 +1324,7 @@
           "Children": []
         },
         {
-          "__guid": "197301cb-26d7-4718-a7f0-173d4a9c70c8",
+          "__guid": "94a31431-8243-43c7-8c2d-11d45a6d2f87",
           "__version": 1,
           "Flags": 0,
           "Name": "Clothing - medium_beard",
@@ -1362,7 +1340,7 @@
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "b95efd68-d17e-4863-b395-3e08a8aa3939",
+              "__guid": "948c3cf0-a54f-4945-ac8f-e0fc134eee27",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,
@@ -1413,7 +1391,7 @@
           "Children": []
         },
         {
-          "__guid": "4fdd61e1-1aa2-46f6-a5ea-5b75f5f5683f",
+          "__guid": "a6e9ead9-10b2-47bd-9e93-7a116727c3b5",
           "__version": 1,
           "Flags": 0,
           "Name": "Clothing - football_tshirt",
@@ -1429,7 +1407,7 @@
           "Components": [
             {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "b12be5f3-f185-4cc0-b4b1-366cd06c4099",
+              "__guid": "6be9a98a-6dde-4ffc-8ae7-9a9222c48680",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,

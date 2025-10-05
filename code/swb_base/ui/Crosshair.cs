@@ -96,7 +96,7 @@ public class Crosshair : Panel
 		bottomBar.Style.MarginTop = screenOffset;
 
 		// Sprint spread offsets
-		if ( weapon.IsRunning || weapon.ShouldTuckVar || weapon.IsReloading || weapon.IsDeploying || (weapon.InBoltBack && !weapon.IsAiming) )
+		if ( weapon.ShouldTuckVar || weapon.IsReloading || weapon.IsDeploying || (weapon.InBoltBack && !weapon.IsAiming) )
 		{
 			leftBar.Style.Left = -sprintOffset;
 			rightBar.Style.Left = sprintOffset - 5;

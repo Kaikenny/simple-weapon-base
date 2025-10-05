@@ -217,7 +217,7 @@ public partial class Weapon : Component, IInventoryItem
 			// Don't cancel reload when customizing
 			if ( IsCustomizing && !IsReloading ) return;
 
-			IsAiming = !Owner.IsRunning && AimAnimData != AngPos.Zero && Input.Down( InputButtonHelper.SecondaryAttack );
+			IsAiming = !Owner.IsWalking && AimAnimData != AngPos.Zero && Input.Down( InputButtonHelper.SecondaryAttack );
 
 			if ( IsScoping )
 				Owner.InputSensitivity = ScopeInfo.AimSensitivity;

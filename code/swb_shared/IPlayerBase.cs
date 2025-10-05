@@ -54,6 +54,9 @@ public interface IPlayerBase : IValid
 	/// </summary>
 	public bool IsRunning { get; }
 
+	/// </summary>
+	public bool IsWalking { get; }
+
 	/// <summary>
 	/// Whether the player is on the ground, this will effect aim and recoil
 	/// </summary>

@@ -21,8 +21,7 @@ public class AmmoDisplay : Panel
 	{
 		this.player = player;
 		StyleSheet.Load( "/swb_hud/AmmoDisplay.cs.scss" );
-
-		Add.Label( "ammo", "name" );
+		
 		clipLabel = Add.Label( "", "clip" );
 		reserveLabel = Add.Label( "", "reserve" );
 	}
@@ -45,12 +44,11 @@ public class AmmoDisplay : Panel
 			clipAmmo = Math.Min( clipAmmo, 999 );
 
 			clipLabel.Text = clipAmmo.ToString();
-			clipLabel.Style.FontColor = clipAmmo == 0 ? emptyColor : Color.White;
+			clipLabel.Style.FontColor = clipAmmo == 0 ? emptyColor : Color.Yellow;
 		}
 		else
 		{
 			clipLabel.Text = "∞";
-			clipLabel.Style.FontColor = Color.White;
 		}
 
 		if ( hasClipSize )
